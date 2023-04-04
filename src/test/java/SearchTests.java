@@ -46,7 +46,7 @@ public class SearchTests extends TestBase {
             $(id("Text Input")).pressEnter();
         });
         step("Проверка текста", () -> {
-            $(id("Text Output")).shouldHave(text("Covid"));
+            $(accessibilityId("Text Output")).shouldHave(text("Covid"));
         });
     }
 }
