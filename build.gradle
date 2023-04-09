@@ -35,7 +35,8 @@ dependencies {
             "com.codeborne:selenide:6.11.2",
             "io.qameta.allure:allure-selenide:2.21.0",
             "org.aeonbits.owner:owner:1.0.4",
-            "io.appium:java-client:8.3.0"
+            "io.appium:java-client:8.3.0",
+            "commons-io:commons-io:2.11.0",
     )
 }
 
@@ -51,11 +52,15 @@ task android(type: Test) {
 }
 
 task ios(type: Test) {
-    useJUnitPlatform{
+    useJUnitPlatform {
         includeTags("ios")
     }
 }
-
-test {
-    useJUnitPlatform()
+task local(type: Test) {
+    useJUnitPlatform {
+        includeTags("local")
+    }
 }
+    test {
+        useJUnitPlatform()
+    }

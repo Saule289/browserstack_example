@@ -24,7 +24,6 @@ public class SearchTests extends TestBase {
                         .shouldHave(sizeGreaterThan(0)));
     }
 
-
     @Tag("android")
     @Test
     void searchJavaScript() {
@@ -36,7 +35,6 @@ public class SearchTests extends TestBase {
                 $$(id("org.wikipedia.alpha:id/page_list_item_title"))
                         .shouldHave(itemWithText("JavaScript")));
     }
-
     @Tag("ios")
     @Test
     void SearchCovid() {
