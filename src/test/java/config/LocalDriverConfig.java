@@ -10,8 +10,6 @@ public interface LocalDriverConfig extends Config {
 
    @Config.Key("appiumServer")
     String appiumServer();
-    @Config.Key("platformName")
-    String platformName();
 
     @Config.Key("deviceName")
     String deviceName();
