@@ -8,6 +8,7 @@ import static io.qameta.allure.Allure.step;
 public class CheckTitleTest extends TestBase{
 
    @Tag("local")
+   @Tag ("android")
     @Test
     void successfulCheckTitleTest() {
         step("Check title of the first page", () -> {

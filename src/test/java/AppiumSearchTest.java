@@ -10,6 +10,7 @@ import static org.openqa.selenium.By.xpath;
 public class AppiumSearchTest extends TestBase{
 
    @Tag("local")
+   @Tag ("android")
     @Test
     void appiumToSearchTest() {
         step("Skip onboarding page", () -> {
