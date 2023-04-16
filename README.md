@@ -1,6 +1,6 @@
 # Проект по автоматизации мобильного тестирования
 
-<img width="6%" title="IntelliJ IDEA" src="images/logo/wiki.jpg">
+<img width="100%" title="IntelliJ IDEA" src="images/logo/wiki.jpg">
 
 ## :bookmark_tabs: Содержание:
 
@@ -54,6 +54,7 @@ gradle local -Denv-local
 Удаленный запуск:
 ```
 gradle android -Dnev=android
+gradle android -Dnev=ios
 ```
 
 ## :computer: Получение отчёта
@@ -66,32 +67,37 @@ ___
 
 ## <img width="4%" style="vertical-align:middle" title="Jenkins" src="images/logo/Jenkins.svg"> Сборка в Jenkins
 
-* Для запуска необходимо нажать на "Собрать сейчас"
+* Для запуска необходимо нажать на "Собрать c параметрами"
 
 <p align="center">
-<img title="Jenkins Build" src="images/screenshots/jenkinsBuild.png">
+<img title="Jenkins Build" src="images/screenshots/Jenkins.png">
 </p>
 
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Пример Allure-отчета
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Пример Allure-отчета удаленного запуска автотестов
 ### Overview
 
 <p align="center">
-<img title="Allure Overview" src="images/screenshots/allureReport.png">
+<img title="Allure Overview" src="images/screenshots/Allure.png">
 </p>
 
+
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Пример Allure-отчета локального запуска автотестов
+### Overview
+
+<p align="center">
+<img title="Allure Overview" src="images/screenshots/Allure2.png">
+</p>
 ___
 ### Результат выполнения теста
 
 <p align="center">
-<img title="Test Results in Alure" src="images/screenshots/allureTO.png">
+<img title="Test Results in Allure" src="images/screenshots/allureTO.png">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
+### <img width="4%" style="vertical-align:middle" title="Browserstack" src="images/logo/Browserstack.svg"> Видео примера запуска автотеста
 
-После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне.
-
+Далее представлено видео прохождения теста на неуспешную авторизацию в мобильном приложении Wikipedia
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="images/screenshots/telegramm.png">
+  <img title="Video" src="images/gif/Test.mp4">
 </p>
-
 
