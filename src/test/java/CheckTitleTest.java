@@ -8,8 +8,7 @@ import static io.qameta.allure.Allure.step;
 public class CheckTitleTest extends TestBase{
 
    @Tag("local")
-   @Tag ("android")
-    @Test
+   @Test
     void successfulCheckTitleTest() {
         step("Check title of the first page", () -> {
                       $(id("org.wikipedia.alpha:id/primaryTextView")).shouldHave(Condition.text("The Free Encyclopedia\n" +
