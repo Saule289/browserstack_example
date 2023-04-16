@@ -65,7 +65,7 @@ allure serve build/allure-results
 ```
 ___
 
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="images/logo/Jenkins.svg"> Сборка в Jenkins
+### <img width="4%" style="vertical-align:middle" title="Jenkins" src="images/logo/Jenkins.svg"> Сборка в Jenkins
 
 * Для запуска необходимо нажать на "Собрать c параметрами"
 
@@ -73,24 +73,23 @@ ___
 <img title="Jenkins Build" src="images/screenshots/Jenkins.png">
 </p>
 
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Пример Allure-отчета удаленного запуска автотестов
-### Overview
+### <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Пример Allure-отчета удаленного запуска автотестов
+
 
 <p align="center">
 <img title="Allure Overview" src="images/screenshots/Allure.png">
 </p>
 
 
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Пример Allure-отчета локального запуска автотестов
-### Overview
+### <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/Allure_Report.svg"> Пример Allure-отчета локального запуска автотестов
+
 
 <p align="center">
 <img title="Allure Overview" src="images/screenshots/Allure2.png">
 </p>
 
 ___
-
-### Результат выполнения теста
+### <img width="4%" style="vertical-align:middle" title="Allure Report" src="images/logo/AllureTO.svg"> Результат выполнения теста
 
 <p align="center">
 <img title="Test Results in Allure" src="images/screenshots/allureTO.png">
