@@ -11,7 +11,7 @@ import static org.openqa.selenium.By.xpath;
 
 public class AddRussianLanguage extends TestBase{
 
-   @Tag("")
+   @Tag("local")
     @Test
     void addLanguages() {
         step("Click on add or edit languages reference", () -> {

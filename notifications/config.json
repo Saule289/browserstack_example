@@ -2,8 +2,8 @@
   "base": {
     "logo": "",
     "project": "some project",
-    "environment": "https://restful-booker.herokuapp.com/",
-    "comment": "results of api_tests",
+    "environment": "https://wikipedia.com/",
+    "comment": "results of mobile_tests",
     "reportLink": "https://jenkins.autotests.cloud",
     "language": "ru",
     "allureFolder": "allure-report/",
