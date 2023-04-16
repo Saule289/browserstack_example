@@ -1,4 +1,4 @@
-# Проект по автоматизации мобильного тестирования
+# Проект по мобильной автоматизации
 
 <img width="100%" title="IntelliJ IDEA" src="images/logo/wiki.jpg">
 
@@ -21,7 +21,7 @@ ___
 <img width="6%" title="Java" src="images/logo/Browserstack.svg">
 <img width="6%" title="Java" src="images/logo/Android_Studio.svg">
 <img width="6%" title="Java" src="images/logo/Appium.svg">
-<img width="6%" title="Java" src="images/logo/Appium_Inspector.svg">
+<img width="6%" title="Java" src="images/logo/Appium_Inspector.png">
 <img width="6%" title="Allure Report" src="images/logo/Allure_Report.svg">
 <img width="6%" title="Allure Report" src="images/logo/AllureTO.svg">
 <img width="6%" title="Gradle" src="images/logo/Gradle.svg">
@@ -32,9 +32,9 @@ ___
 </p>
 
 Автотесты написаны на <code>Java</code> с использованием <code>JUnit 5</code> и <code>Gradle</code>.
-Для тестов для мобильного приложения использован фреймворк [Appium](https://appium.io/), и [Android Studio](https://developer.android.com/studio)
+Для тестов для мобильного приложения использован фреймворк [Appium](https://appium.io/).
 Запуск тестов можно осуществлять локально или удаленно.
-Также реализована сборка в <code>Jenkins</code> с формированием Allure-отчета и отправкой уведомления с результатами в <code>Telegram</code> после завершения прогона.
+Также реализована сборка в <code>Jenkins</code> с формированием Allure-отчета.
 
 Allure-отчет включает в себя:
 * Шаги выполнения тестов;
@@ -87,7 +87,9 @@ ___
 <p align="center">
 <img title="Allure Overview" src="images/screenshots/Allure2.png">
 </p>
+
 ___
+
 ### Результат выполнения теста
 
 <p align="center">
@@ -98,6 +100,6 @@ ___
 
 Далее представлено видео прохождения теста на неуспешную авторизацию в мобильном приложении Wikipedia
 <p align="center">
-  <img title="Video" src="images/gif/Test.mp4">
+  <img title="Video" src="images/gif/Test.gif">
 </p>
 
